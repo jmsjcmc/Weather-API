@@ -43,7 +43,7 @@ This is a simple Node.js API that fetches real-time weather data from the Visual
 ## 📦 Installation
 #### 1. Clone the repo
 ```bash
-git clone https://github.com/yourusername/weather-api.git
+git clone https://github.com/jmsjcmc/weather-api.git
 cd weather-api
 ```
 #### 2.Install dependencies
