@@ -16,14 +16,31 @@ This is a simple Node.js API that fetches real-time weather data from the Visual
  -   Rate limiting to protect against abuse.
 
 ## 🏗️ Tech Stack
+Here are the main technologies used in this project, along with short and clear explanations:
 
-- [Node.js](https://nodejs.org/)  
-- [Express.js](https://expressjs.com/)  
-- [Axios](https://axios-http.com/) for HTTP requests  
-- [Redis](https://redis.io/) via [`ioredis`](https://github.com/luin/ioredis)  
-- [Visual Crossing Weather API](https://www.visualcrossing.com/weather-api)  
-- [`dotenv`](https://www.npmjs.com/package/dotenv) for environment variables  
-- [`express-rate-limit`](https://www.npmjs.com/package/express-rate-limit) for rate limiting
+-   **[Node.js](https://nodejs.org/):**  
+    A fast and lightweight JavaScript runtime used to build the server-side (backend) of this application.
+    
+-   **[Express.js](https://expressjs.com/):**  
+    A web framework for Node.js that simplifies handling routes, requests, and responses.
+    
+-   **[Axios](https://axios-http.com/):**  
+    A popular library used to make HTTP requests (like calling the weather API).
+    
+-   **[Redis](https://redis.io/):**  
+    A fast, in-memory data store used here for caching weather results to improve speed and reduce external API usage.
+    
+-   **[ioredis](https://github.com/luin/ioredis):**  
+    A Node.js library for connecting and interacting with a Redis database.
+    
+-   **[Visual Crossing Weather API](https://www.visualcrossing.com/weather-api):** 
+    A free and easy-to-use API that provides weather data for any city. This is where we get the actual weather information.
+    
+-   **[dotenv](https://www.npmjs.com/package/dotenv):**  
+    A package that loads environment variables from a `.env` file. It helps keep sensitive info (like API keys) secure and outside of the main code.
+    
+-   **[express-rate-limit](https://www.npmjs.com/package/express-rate-limit):**  
+    A middleware that limits the number of requests from a single IP to prevent spamming or overloading the server.
 ## 📦 Installation
 #### 1. Clone the repo
 ```bash
