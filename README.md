@@ -33,7 +33,8 @@ Here are the main technologies used in this project, along with short and clear 
 -   **[ioredis](https://github.com/luin/ioredis):**  
     A Node.js library for connecting and interacting with a Redis database.
     
--   **[Visual Crossing Weather API](https://www.visualcrossing.com/weather-api):** 
+-   **[Visual Crossing Weather API](https://www.visualcrossing.com/weather-api):**
+
     A free and easy-to-use API that provides weather data for any city. This is where we get the actual weather information.
     
 -   **[dotenv](https://www.npmjs.com/package/dotenv):**  
