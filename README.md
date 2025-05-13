@@ -99,3 +99,6 @@ GET http://localhost:3000/api/weather/davao
 3.  If not, it fetches data from the Visual Crossing API and stores it in Redis with a 12-hour TTL.
     
 4.  Rate limiting is applied to prevent abuse (100 requests per 15 minutes per IP).
+
+## 📁 Project URL
+https://roadmap.sh/projects/weather-api-wrapper-service
