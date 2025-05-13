@@ -16,7 +16,6 @@ This is a simple Node.js API that fetches real-time weather data from the Visual
  -   Rate limiting to protect against abuse.
 
 ## 🏗️ Tech Stack
-Here are the main technologies used in this project:
 
 -   **[Node.js](https://nodejs.org/):**  
     A fast and lightweight JavaScript runtime used to build the server-side (backend) of this application.
